@@ -1,5 +1,5 @@
 {
-  "name": "eth-json-rpc-middleware",
+  "name": "@dexon-foundation/eth-json-rpc-middleware",
   "version": "3.1.7",
   "main": "block-ref.js",
   "directories": {
@@ -19,16 +19,16 @@
     "async": "^2.5.0"
   },
   "dependencies": {
+    "@dexon-foundation/eth-tx-summary": "^3.2.3",
+    "@dexon-foundation/ethereumjs-vm": "2.2.2",
     "babel-preset-es2015": "^6.24.1",
     "btoa": "^1.2.1",
     "clone": "^2.1.1",
     "eth-query": "^2.1.2",
     "eth-sig-util": "^1.4.2",
-    "eth-tx-summary": "^3.2.3",
     "ethereumjs-block": "^1.6.0",
     "ethereumjs-tx": "^1.3.3",
     "ethereumjs-util": "^5.1.2",
-    "ethereumjs-vm": "2.2.2",
     "fetch-ponyfill": "^4.0.0",
     "json-rpc-engine": "^3.8.0",
     "json-rpc-error": "^2.0.0",

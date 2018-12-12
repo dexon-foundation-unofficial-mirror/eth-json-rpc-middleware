@@ -1,5 +1,5 @@
 const EthQuery = require('eth-query')
-const createVm = require('ethereumjs-vm/lib/hooked').fromWeb3Provider
+const createVm = require('@dexon-foundation/ethereumjs-vm/lib/hooked').fromWeb3Provider
 const blockFromRpc = require('ethereumjs-block/from-rpc')
 const FakeTransaction = require('ethereumjs-tx/fake')
 const scaffold = require('./scaffold')

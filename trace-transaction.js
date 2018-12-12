@@ -1,4 +1,4 @@
-const traceTransaction = require('eth-tx-summary/trace-transaction')
+const traceTransaction = require('@dexon-foundation/eth-tx-summary/trace-transaction')
 
 module.exports = createTraceTransactionMiddleware
 
